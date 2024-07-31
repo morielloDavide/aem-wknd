@@ -71,7 +71,7 @@ public class HelloWorldModel {
     }
 
     public String getText() {
-        return StringUtils.isNotBlank(text) ? text.toUpperCase() : null ;
+        return StringUtils.isNotBlank(text) ? text.toUpperCase() : "sono vuoto" ;
     }
 
     public String getTitle() {
